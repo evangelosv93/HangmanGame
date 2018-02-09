@@ -1,0 +1,19 @@
+body {
+  /* i tried linking the same image I had in the folder but it wouldn't connect */
+  background-image:
+   url("https://media.gettyimages.com/photos/blank-green-chalkboard-background-with-drawing-of-hangman-picture-id471980287?b=1&k=6&m=471980287&s=612x612&w=0&h=wq6hpkwXLZXII3TCns04laWwtAz00CXER6sCt_q7Eak=");
+
+background-repeat: no-repeat;
+  /* had sizing issues with backround image it covers beyond page */
+    background-size: cover;
+}
+
+.introText {
+  text-align: center;
+  color: white;
+
+}
+
+#guessWord {
+  opacity: 0.0000000001;
+}
